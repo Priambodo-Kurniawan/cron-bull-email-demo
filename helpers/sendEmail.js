@@ -7,13 +7,13 @@ function sendEmail (email) {
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'yonathantherigan12345@gmail.com',
+          user: 'codebeast.id@gmail.com',
           pass: process.env.PASSWORD
         }
       });
       
       let mailOptions = {
-        from: 'yonathantherigan12345@gmail.com',
+        from: 'codebeast.id@gmail.com',
         to: `${email}`,
         subject: 'Promo Baru',
         html: emailTemplate

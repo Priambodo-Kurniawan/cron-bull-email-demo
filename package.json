@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "bull": "^3.16.0",
     "cors": "^2.8.5",
     "cron": "^1.8.2",
     "express": "^4.17.1",
@@ -18,5 +19,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnoldtherigan15/cron-email-subscription.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arnoldtherigan15/cron-email-subscription/issues"
+  },
+  "homepage": "https://github.com/arnoldtherigan15/cron-email-subscription#readme"
 }
